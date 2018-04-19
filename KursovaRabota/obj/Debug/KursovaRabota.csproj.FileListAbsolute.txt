@@ -1,0 +1,42 @@
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\csc.exe
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\System.Collections.Immutable.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\System.Reflection.Metadata.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\vbc.exe
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\VBCSCompiler.exe
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\roslyn\VBCSCompiler.exe.config
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\KursovaRabota.dll.config
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\KursovaRabota.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\KursovaRabota.pdb
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.csprojResolveAssemblyReference.cache
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.dll
+D:\Bob4o\ASP\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.pdb
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\csc.exe
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\System.Collections.Immutable.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\System.Reflection.Metadata.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\vbc.exe
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\VBCSCompiler.exe
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\roslyn\VBCSCompiler.exe.config
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\KursovaRabota.dll.config
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\KursovaRabota.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\KursovaRabota.pdb
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\programming stuff\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.csprojResolveAssemblyReference.cache
+D:\programming stuff\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.csproj.CoreCompileInputs.cache
+D:\programming stuff\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.csproj.CopyComplete
+D:\programming stuff\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.dll
+D:\programming stuff\KursovaRabota\KursovaRabota\obj\Debug\KursovaRabota.pdb

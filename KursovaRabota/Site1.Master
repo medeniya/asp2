@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="KursovaRabota.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+        p {
+            background: none!important;
+        }
+        .clearfix {
+            clear: both;
+        }
+
+        .header {
+            background: #fb772b;
+            position: relative;
+            padding-bottom: 70px;
+        }
+        .header .logo {
+            padding: 10px 0 0 10px;
+        }
+        .header .menu {
+            display: flex;
+            justify-content: center;
+        }
+        .header .menu a {
+            margin: 0 10px;
+        }
+        .header .top-background {
+            position: absolute;
+            width: 100%;    
+            top: 160px;
+            z-index: 1;
+        }
+        .header .top-background .top {
+            padding-top: 19px;
+            background: url("/Pictures/top_content_head_bg.png") repeat-x scroll 0 0;
+        }
+        .header .top-background .mid {
+            height: 300px;
+            background-color: #fdf7de;
+            width: 100%;
+            height: 190px;
+        }
+        .header .top-background .bot {
+            background: url("/Pictures/top_content_head_bg.png") repeat-x scroll 0 0;
+            transform: scaleY(-1);
+            padding-top: 19px;
+        }
+
+        .content {
+            width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            background: url("/Pictures/gallery_container_bg.png") no-repeat;
+            z-index: 2;
+            display: flex;
+            background-size: contain;
+
+        }
+        .content .main {
+            width: 70%;
+            float: left;
+            padding: 0 40px;
+        }
+        .content .headline {
+            border-bottom: 1px solid #97bddb;
+            text-align: center;
+            margin: 0 20px 20px 20px;
+        }
+        .content .headline h2 {
+            color: #385EA7;
+            font-weight: 100;
+        }
+        .content .sidebar {
+            width: 30%;
+            float: left;
+            margin-top: 90px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .content .sidebar img {
+            margin: 20px 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            background-color: #022f58;
+        }
+        .footer .image-holder {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            padding: 0 15px;
+        }
+        .footer img {
+            margin: 20px 0;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .uniform-image img {
+            margin: 0 10px!important;
+        }
+
+        .modal-backdrop.in {
+            display: none;
+        }
+        .modal-dialog {
+            width: 410px;
+        }
+        .modal-content {
+            height: 670px;
+        }
+        .modal-body {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            align-items: center;
+        }
+        .modal-body img {
+            max-height: 100%;
+        }
+    </style>    
+</head>
+<body>
+    <form runat="server">
+        <div class="header">
+            <div class="logo">
+                <img alt="" src="Pictures/logo-1.png" />
+            </div>
+            <div class="menu">
+                <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Font-Bold="True" Font-Size="X-Large" ForeColor="White">
+                    <Items>
+                        <asp:MenuItem Text="Начало" Value="Начало" NavigateUrl="~/Home.aspx" ToolTip="Начало"></asp:MenuItem>
+                        <asp:MenuItem Text="Патрон" Value="Патрон" NavigateUrl="~/WebForm1.aspx" ToolTip="Патрон">
+                            <asp:MenuItem Text="Творчество" Value="Творчество" NavigateUrl="~/Work.aspx" ToolTip="Творчество"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Униформи" Value="Униформи" NavigateUrl="~/Uniforms.aspx" ToolTip="Униформи"></asp:MenuItem>
+                        <asp:MenuItem Text="Галерия" Value="Галерия" NavigateUrl="~/Gallery.aspx" ToolTip="Галерия"></asp:MenuItem>
+                        <asp:MenuItem Text="Дневник" Value="Дневник" NavigateUrl="~/Dnevnik.aspx" ToolTip="Дневник"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+            <div class="top-background">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bot"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="main">
+                <div class="headline">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="sidebar">
+                <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                <a href="https://www.facebook.com/Slaveykov.Varna/">
+                    <img alt="" src="Pictures/fb.png" />
+                </a>                
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="footer">
+            <div class="image-holder">
+                <img alt="" src="Pictures/Primary-usage_URL_Logo_CMYK-1.png" />
+            </div>
+            <div class="image-holder">
+                <img alt="" src="Pictures/Logo_CCT.png" />
+            </div>
+            <div class="image-holder">
+                <img alt="" src="Pictures/logo-NARD-bg.jpg" />
+            </div>
+            <div class="image-holder">
+                <img alt="" src="Pictures/logo_SMB.gif" />
+            </div>
+            <div class="image-holder">
+                <img alt="" src="Pictures/Logo_OCOSUR.png" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
